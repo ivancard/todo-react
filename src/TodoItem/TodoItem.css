@@ -1,0 +1,32 @@
+.TodoItem{
+    background-color: #24385b;
+    list-style-type: none;
+    padding:0 20px;
+    margin-bottom: 15px;
+    display: flex;
+    width: 60%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.TodoItem span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn svg{
+    transition: all 100ms ease-in-out;
+}
+
+.deleteBtn svg:hover{
+    stroke: crimson;
+    transform: scale(1.2);
+}
+
+.Icon-ckeck--active svg{
+    stroke: #92c93d ;
+}
+.todoItem-p--complete{
+    text-decoration: line-through;
+}

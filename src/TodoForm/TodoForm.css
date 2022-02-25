@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.form-container {
+    background-color: #24385b;
+    width: 25%;
+    height: 20%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-container textarea {
+    height: 60%;
+    outline: none;
+    padding: 5px;
+}
+
+.form-container textarea:focus {
+    box-shadow: inset 0px 0px 5px 2px #92c93d;
+}
+
+.form-container div {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.form-container div .btn {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container div .btnCancel {
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #24385b77;
+}
+.form-container div .btnSubmit {
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #24385b77;
+}
+
+.form-container div .btnCancel:hover {
+    background-color: tomato;
+    color: white;
+}
+.form-container div .btnSubmit:hover {
+    background-color: #92c93d;
+    color: white;
+}

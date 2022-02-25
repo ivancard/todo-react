@@ -1,0 +1,17 @@
+.TodoSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:15px ;
+}
+.TodoSearch input{
+    border: none;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.TodoSearch input:focus{
+    outline: none;
+    box-shadow:inset 0px 0px 5px 2px #4f6b9b78 ;
+}
